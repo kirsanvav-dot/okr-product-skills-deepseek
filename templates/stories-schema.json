@@ -1,0 +1,27 @@
+{
+  "stories": [
+    {
+      "story_id": "S-001",
+      "epic_id": "E-001",
+      "initiative_id": "I-001",
+      "kr_ids": [
+        "TEAM-K1"
+      ],
+      "title": "Связь сообщений с этапами доставки",
+      "description": "Для дежурного специалиста видны связанные события обработки уведомления",
+      "acceptance_criteria": [
+        "Given ID сообщения When открыта диагностика Then видны отметки прохождения этапов"
+      ],
+      "negative_cases": [
+        "Не найден ID сообщения"
+      ],
+      "test_evidence": "Отчёт автотеста и лог валидации",
+      "api_data_impact": "TBD",
+      "dependencies": [],
+      "estimate_range": "TBD",
+      "source_refs": [
+        "file.xlsx!E10"
+      ]
+    }
+  ]
+}

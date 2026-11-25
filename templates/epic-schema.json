@@ -1,0 +1,26 @@
+{
+  "epics": [
+    {
+      "epic_id": "E-001",
+      "initiative_id": "I-001",
+      "kr_ids": [
+        "TEAM-K1"
+      ],
+      "name": "Диагностика задержек уведомлений",
+      "outcome": "Время локализации задержек в приоритетных сценариях сокращено",
+      "acceptance_metric": "X% критичных задержек локализованы за X минут",
+      "owner": "Команда уведомлений",
+      "dependencies": [],
+      "scope": "MVP",
+      "reuse_decision": "EXTEND",
+      "role_estimate_range": {
+        "BE": "TBD",
+        "QA": "TBD"
+      },
+      "quarter": "Q2",
+      "source_refs": [
+        "file.xlsx!E10"
+      ]
+    }
+  ]
+}
